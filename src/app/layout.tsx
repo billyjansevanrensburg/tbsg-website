@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Open_Sans, Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import { Header, Footer } from "@/components";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 const montserrat = Montserrat({
@@ -103,9 +102,7 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased bg-white text-tbsg-charcoal">
         <GoogleAnalytics />
-        <Header />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );
