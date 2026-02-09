@@ -44,9 +44,9 @@ export function TrustBadges({
                   <Image
                     src={bank.src}
                     alt={bank.name}
-                    width={140}
-                    height={50}
-                    className="h-10 lg:h-12 w-auto grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300"
+                    width={280}
+                    height={100}
+                    className="h-20 lg:h-24 w-auto grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300"
                   />
                 </div>
               ))}
@@ -61,9 +61,9 @@ export function TrustBadges({
                   <Image
                     src={badge.src}
                     alt={badge.name}
-                    width={100}
-                    height={50}
-                    className="h-12 lg:h-14 w-auto"
+                    width={200}
+                    height={100}
+                    className="h-24 lg:h-28 w-auto"
                   />
                 </div>
               ))}

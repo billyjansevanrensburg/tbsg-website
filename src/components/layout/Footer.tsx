@@ -41,9 +41,9 @@ export function Footer() {
                 <Image
                   src="/images/logos/tbsg-logo-white.png"
                   alt="TBSG - The Bridging Solutions Group"
-                  width={180}
-                  height={50}
-                  className="h-12 w-auto"
+                  width={360}
+                  height={100}
+                  className="h-24 w-auto"
                 />
               </Link>
               <p className="text-gray-400 text-sm mb-6 max-w-xs">
@@ -69,16 +69,16 @@ export function Footer() {
                 <Image
                   src="/images/compliance/bfasa.png"
                   alt="BFASA Member"
-                  width={80}
-                  height={50}
-                  className="h-10 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
+                  width={160}
+                  height={100}
+                  className="h-20 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
                 />
                 <Image
                   src="/images/compliance/ncr.png"
                   alt="NCR Registered"
-                  width={80}
-                  height={50}
-                  className="h-10 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
+                  width={160}
+                  height={100}
+                  className="h-20 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
                 />
               </div>
             </div>

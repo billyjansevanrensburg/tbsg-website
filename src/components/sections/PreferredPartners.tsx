@@ -56,9 +56,9 @@ export function PreferredPartners({
               <Image
                 src={partner.src}
                 alt={partner.name}
-                width={150}
-                height={60}
-                className="h-12 lg:h-16 w-auto grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+                width={300}
+                height={120}
+                className="h-24 lg:h-32 w-auto grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
               />
             </div>
           ))}

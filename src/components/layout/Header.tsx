@@ -62,9 +62,9 @@ export function Header() {
             <Image
               src="/images/logos/tbsg-logo.png"
               alt="TBSG - The Bridging Solutions Group"
-              width={200}
-              height={56}
-              className="h-14 w-auto"
+              width={400}
+              height={112}
+              className="h-28 w-auto"
               priority
             />
           </Link>
